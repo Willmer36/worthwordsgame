@@ -1,0 +1,11 @@
+<h1>Your result</h1>
+
+<ul>
+  <li>Attempt: <%= @attempt%></li>
+  <li>Translation: <%= @ret[:translation]%></li>
+  <li>Time: <%= @ret[:time]%></li>
+  <li>Message: <%= @ret[:message]%></li>
+  <li>Score: <%= @ret[:score]%></li>
+</ul>
+
+<%= link_to("Restart", run_path) %>

@@ -7,7 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <p>Today we are <%= Time.now.strftime("%d/%m/%Y") %><p>
 <%= yield %>
 
 </body>
